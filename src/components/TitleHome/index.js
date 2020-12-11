@@ -27,11 +27,13 @@ export const TitleHome = () => {
             justifyContent: "center",
             alignItems: "center",
           }}>
-          <Title>
+          <Title top={"220px"} size={"27px"}>
             Una plataforma de jóvenes cancunenses para transformar nuestra
             comunidad
           </Title>
-          <Title>¡Regístrate!</Title>
+          <Title top={"100px"} size={"35px"}>
+            ¡Regístrate!
+          </Title>
           <ContainerButton>
             <ButtonTitle>Comunidad</ButtonTitle>
             <ButtonTitle>Organizaciones</ButtonTitle>

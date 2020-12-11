@@ -1,8 +1,4 @@
 import styled from "styled-components";
-<style>
-  @import
-  url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700&display=swap');
-</style>;
 
 export const ContainerTitle = styled.div`
   display: flex;
@@ -17,13 +13,14 @@ export const IlustracionImg = styled.img`
 export const Title = styled.h2`
   color: white;
   font-family: "Baloo Thambi 2", cursive;
-  width: 450px;
+  width: 500px;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: ${(props) => props.top};
   text-align: center;
   line-height: 40px;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: ${(props) => props.size};
+  font-weight: 800;
+  letter-spacing: 3px;
 `;
 
 export const ContainerButton = styled.div`
@@ -32,12 +29,14 @@ export const ContainerButton = styled.div`
   width: 100%;
 `;
 export const ButtonTitle = styled.button`
-  padding: 15px 30px;
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 20px;
+  width: 220px;
+  height: 70px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 25px;
   font-weight: bold;
   background: linear-gradient(90deg, #ff9085, #fb6fbb);
   border: none;
   color: white;
   margin-top: 20px;
+  border-radius: 3px;
 `;

@@ -1,19 +1,17 @@
 import styled from "styled-components";
-<style>
-  @import
-  url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600;1,700;1,900&display=swap');
-</style>;
 
 export const GlobalNavbar = styled.nav`
   display: flex;
   color: white;
   width: 100%;
+  margin-top: 20px;
 `;
 
 export const ContainerLogo = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-left: -70px;
 `;
 export const ContainerButton = styled.div`
   display: flex;
@@ -34,9 +32,9 @@ export const ButtonNavbar = styled.button`
   outline: none;
   cursor: pointer;
   color: white;
-  font-size: 20px;
+  font-size: 19px;
   padding: 0 13px;
-  margin: 0 17px;
+  margin: 0 7px;
   font-family: "Source Code Pro", monospace;
   font-style: italic;
   font-weight: bold;
