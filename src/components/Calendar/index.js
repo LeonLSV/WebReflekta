@@ -8,7 +8,7 @@ export const Calendario = () => {
   return (
     <>
       <Calendar
-        style={{ width: "80%", margin: "0 auto" }}
+        style={{ width: "80%", margin: "0 auto", marginTop: "100px" }}
         onPanelChange={onPanelChange}
       />
     </>
