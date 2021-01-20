@@ -14,13 +14,13 @@ export const QueEsReflekta = () => {
             justifyContent: "center",
             alignItems: "center",
           }}>
-          <video
+          <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/watch?v=-dI4oTssDhE&list=RD-dI4oTssDhE&start_radio=1"
+            src="https://www.youtube.com/embed/-dI4oTssDhE"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></video>
+            allowfullscreen></iframe>
         </Col>
         <Col
           span={12}
