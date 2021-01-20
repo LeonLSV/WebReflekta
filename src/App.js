@@ -6,6 +6,7 @@ import { Calendario } from "./components/Calendar";
 import { ReflektaBaner } from "./components/ReflektaBaner";
 import { Footer } from "./components/Footer";
 import { BotonMedio } from "./components/Boton";
+import { Organizaciones } from "./components/Organizaciones";
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
         <Calendario />
         <ReflektaBaner />
         <BotonMedio />
+        <Organizaciones />
         <Footer />
       </GlobalStyles>
     </>
