@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  ContainerTitle,
-  ContainerButton,
-  IlustracionImg,
-  Title,
-  ButtonTitle,
-} from "./styles";
+import { ContainerButton, IlustracionImg, Title, ButtonTitle } from "./styles";
 import { Row, Col } from "antd";
 import ilustracion from "../../images/ilustr.png";
 import { QueEsReflekta } from "../QueEsReflekta";
