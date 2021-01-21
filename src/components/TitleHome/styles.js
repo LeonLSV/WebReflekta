@@ -39,4 +39,5 @@ export const ButtonTitle = styled.button`
   color: white;
   margin-top: 20px;
   border-radius: 3px;
+  cursor: pointer;
 `;

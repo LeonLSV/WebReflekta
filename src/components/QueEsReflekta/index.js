@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "antd";
 import queesreflekta from "../../images/quees.png";
 import { QueEsReflektaImg } from "./styled";
+import ReactPlayer from "react-player/youtube";
 
 export const QueEsReflekta = () => {
   return (
@@ -14,15 +15,7 @@ export const QueEsReflekta = () => {
             justifyContent: "center",
             alignItems: "center",
           }}>
-          {/* <div>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/-dI4oTssDhE"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div> */}
+          <ReactPlayer url="https://www.youtube.com/embed/-dI4oTssDhE" />
         </Col>
         <Col
           span={12}
