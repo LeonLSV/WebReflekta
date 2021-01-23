@@ -16,7 +16,7 @@ export const Footer = () => {
   return (
     <>
       <FooterImg src={fondo_abajo} alt="Footer" />
-      <Row justify="space-around" align="middle" style={{ marginTop: "60px" }}>
+      <Row justify="space-around" align="middle">
         <Col
           md={0}
           sm={24}

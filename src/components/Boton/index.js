@@ -17,7 +17,7 @@ export const BotonMedio = () => {
   return (
     <>
       <Row justify="center" align="middle" style={{ margin: "70px" }}>
-        <Col span={8}>
+        <Col xl={8} lg={12} md={14} sm={20} xs={24}>
           <Link to="/directorio">
             <BotonDirectorio src={boton} alt="Boton Directorio" />
           </Link>

@@ -14,4 +14,10 @@ export const Aliados = styled.h1`
   font-family: "Baloo Thambi 2", cursive;
   font-size: 70px;
   font-weight: bold;
+  @media (max-width: 767px) {
+    font-size: 55px;
+  }
+  @media (max-width: 400px) {
+    font-size: 40px;
+  }
 `;

@@ -21,3 +21,14 @@ export const BackgroundIconos = styled.div`
   background: red;
   display: flex;
 `;
+
+export const OcultarYno = styled.div`
+  display: ${(props) => props.display};
+  @media (max-width: 991px) {
+    display: ${(props) => props.display2};
+  }
+`;
+
+export const ImgIconosMovil = styled.img`
+  width: 80%;
+`;

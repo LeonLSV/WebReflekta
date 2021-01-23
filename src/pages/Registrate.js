@@ -27,7 +27,7 @@ export const Registrate = () => {
           <IMGarrow src={arrow} alt="flecha" />
         </Col>
       </Row>
-      <Row style={{ margin: "60px 0", background: "white" }}>
+      <Row style={{ marginTop: "60px", background: "white" }}>
         <Organizaciones />
       </Row>
     </>

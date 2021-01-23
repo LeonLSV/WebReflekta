@@ -7,21 +7,31 @@ export const GlobalNavbar = styled.nav`
   margin-top: 20px;
 `;
 
+export const ContainerMenu = styled.div`
+  @media (min-width: 991px) {
+    display: none;
+  }
+`;
 export const ContainerLogo = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
-  margin-left: -70px;
 `;
 export const ContainerButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  @media (max-width: 991px) {
+    display: none;
+  }
 `;
 export const LogoNavbar = styled.img`
   width: 300px;
   margin: 20px;
+  @media (max-width: 515px) {
+    width: 200px;
+  }
 `;
 export const ButtonNavbar = styled.button`
   background: none;
