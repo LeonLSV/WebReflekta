@@ -6,4 +6,7 @@ export const Img = styled.img`
   height: auto;
   top: 0;
   z-index: -1;
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;

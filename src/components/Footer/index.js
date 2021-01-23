@@ -11,7 +11,6 @@ import {
 } from "./styled";
 import fondo_abajo from "../../images/fondo_abajo.png";
 import Recurso51logo_abajo from "../../images/Recurso51logo_abajo.png";
-// import "./index.css";
 
 export const Footer = () => {
   return (
@@ -28,16 +27,7 @@ export const Footer = () => {
           }}>
           <ImgReflektaFooterXS src={Recurso51logo_abajo} alt="Logo Reflekta" />
         </Col>
-        <Col
-          md={8}
-          sm={24}
-          xs={24}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "flex-start",
-          }}>
+        <Col md={8} sm={24} xs={24}>
           <ContainerTextFooterLista>
             <Link to="/">
               <TextFooterLista>Inicio</TextFooterLista>

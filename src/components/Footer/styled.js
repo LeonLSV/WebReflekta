@@ -24,6 +24,7 @@ export const ImgReflektaFooter = styled.img`
 `;
 export const ImgReflektaFooterXS = styled.img`
   width: 50%;
+  margin-top: 40px;
   @media (min-width: 768px) {
     display: none;
   }
@@ -60,10 +61,16 @@ export const TextFooterLista = styled.h1`
 `;
 
 export const ContainerTextFooterLista = styled.div`
-  margin-left: 3rem;
+  margin-left: 4rem;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   @media (max-width: 767px) {
     text-align: center;
     width: 100%;
     margin: 20px 0;
+    align-items: center;
   }
 `;
