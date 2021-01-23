@@ -15,6 +15,9 @@ export const FooterImg = styled.img`
 export const ImgReflektaFooter = styled.img`
   width: 100%;
 `;
+export const ImgReflektaFooterXS = styled.img`
+  width: 100%;
+`;
 
 export const TextFooterInvita = styled.h1`
   text-align: center;
