@@ -1,14 +1,20 @@
 import React from "react";
-import { Navbar } from "../components/NavBar";
-import { Hero } from "../components/Hero";
 import { TitleHome } from "../components/TitleHome";
+import { Iconos } from "../components/Iconos";
+import { Calendario } from "../components/Calendar";
+import { ReflektaBaner } from "../components/ReflektaBaner";
+import { BotonMedio } from "../components/Boton";
+import { Organizaciones } from "../components/Organizaciones";
 
 export const Home = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
       <TitleHome />
+      <Iconos />
+      <Calendario />
+      <ReflektaBaner />
+      <BotonMedio />
+      <Organizaciones />
     </>
   );
 };
