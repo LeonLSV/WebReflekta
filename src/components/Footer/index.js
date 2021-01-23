@@ -7,10 +7,11 @@ import {
   TextFooterInvita,
   TextFooterLista,
   ImgReflektaFooterXS,
+  ContainerTextFooterLista,
 } from "./styled";
 import fondo_abajo from "../../images/fondo_abajo.png";
 import Recurso51logo_abajo from "../../images/Recurso51logo_abajo.png";
-import "./index.css";
+// import "./index.css";
 
 export const Footer = () => {
   return (
@@ -36,23 +37,24 @@ export const Footer = () => {
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "flex-start",
-            paddingLeft: "3rem",
           }}>
-          <Link to="/">
-            <TextFooterLista>Inicio</TextFooterLista>
-          </Link>
-          <Link to="/registrate">
-            <TextFooterLista>Regístrate</TextFooterLista>
-          </Link>
-          <Link to="/directorio">
-            <TextFooterLista>Directorio</TextFooterLista>
-          </Link>
-          <Link to="/calendario">
-            <TextFooterLista>Calendario</TextFooterLista>
-          </Link>
-          <Link to="/contactanos">
-            <TextFooterLista>Contáctanos</TextFooterLista>
-          </Link>
+          <ContainerTextFooterLista>
+            <Link to="/">
+              <TextFooterLista>Inicio</TextFooterLista>
+            </Link>
+            <Link to="/registrate">
+              <TextFooterLista>Regístrate</TextFooterLista>
+            </Link>
+            <Link to="/directorio">
+              <TextFooterLista>Directorio</TextFooterLista>
+            </Link>
+            <Link to="/calendario">
+              <TextFooterLista>Calendario</TextFooterLista>
+            </Link>
+            <Link to="/contactanos">
+              <TextFooterLista>Contáctanos</TextFooterLista>
+            </Link>
+          </ContainerTextFooterLista>
         </Col>
         <Col
           md={8}
