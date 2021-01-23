@@ -3,6 +3,7 @@ import { ContainerButton, IlustracionImg, Title, ButtonTitle } from "./styles";
 import { Row, Col } from "antd";
 import ilustracion from "../../images/ilustr.png";
 import { QueEsReflekta } from "../QueEsReflekta";
+import { Link } from "@reach/router";
 
 export const TitleHome = () => {
   return (
@@ -30,7 +31,9 @@ export const TitleHome = () => {
           </Title>
           <ContainerButton>
             <ButtonTitle>Comunidad</ButtonTitle>
-            <ButtonTitle>Organizaciones</ButtonTitle>
+            <Link to="/registrate">
+              <ButtonTitle>Organizaciones</ButtonTitle>
+            </Link>
           </ContainerButton>
         </Col>
         <Col span={14}>

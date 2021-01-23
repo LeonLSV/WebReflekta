@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import { Row, Col } from "antd";
 import {
   FooterImg,
@@ -20,14 +21,25 @@ export const Footer = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            alignItems: "center",
-            marginTop: "50px",
+            alignItems: "flex-start",
+            marginTop: "40px",
+            paddingLeft: "100px",
           }}>
-          <TextFooterLista>Inicio</TextFooterLista>
-          <TextFooterLista>Regístrate</TextFooterLista>
-          <TextFooterLista>Directorio</TextFooterLista>
-          <TextFooterLista>Calendario</TextFooterLista>
-          <TextFooterLista>Contáctanos</TextFooterLista>
+          <Link to="/">
+            <TextFooterLista>Inicio</TextFooterLista>
+          </Link>
+          <Link to="/registrate">
+            <TextFooterLista>Regístrate</TextFooterLista>
+          </Link>
+          <Link to="/directorio">
+            <TextFooterLista>Directorio</TextFooterLista>
+          </Link>
+          <Link to="/calendario">
+            <TextFooterLista>Calendario</TextFooterLista>
+          </Link>
+          <Link to="/contactanos">
+            <TextFooterLista>Contáctanos</TextFooterLista>
+          </Link>
         </Col>
         <Col
           span={8}

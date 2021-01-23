@@ -17,7 +17,7 @@ const Sombra = {
 export const Contactanos = () => {
   return (
     <>
-      <Row justify="center" align="middle" style={{ height: "700px" }}>
+      <Row justify="center" align="middle" style={{ height: "750px" }}>
         <Col
           span={24}
           style={{

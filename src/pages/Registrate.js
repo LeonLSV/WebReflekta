@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 import arrow from "../images/arrow.png";
 import registroreflekta from "../images/registroreflekta.png";
 import { IMGregistrate, IMGarrow } from "../styles/registrate";
+import { Organizaciones } from "../components/Organizaciones";
 
 const alineacion = {
   display: "flex",
@@ -25,6 +26,9 @@ export const Registrate = () => {
         <Col span={10} style={alineacionArrow}>
           <IMGarrow src={arrow} alt="flecha" />
         </Col>
+      </Row>
+      <Row style={{ margin: "60px 0", background: "white" }}>
+        <Organizaciones />
       </Row>
     </>
   );

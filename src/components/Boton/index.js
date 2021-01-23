@@ -1,6 +1,7 @@
 import React from "react";
 import boton from "../../images/boton_directorio.png";
 import { Row, Col, Carousel } from "antd";
+import { Link } from "@reach/router";
 
 import { BotonDirectorio, Aliados } from "./styled";
 
@@ -17,7 +18,9 @@ export const BotonMedio = () => {
     <>
       <Row justify="center" align="middle" style={{ margin: "70px" }}>
         <Col span={8}>
-          <BotonDirectorio src={boton} alt="Boton Directorio" />
+          <Link to="/directorio">
+            <BotonDirectorio src={boton} alt="Boton Directorio" />
+          </Link>
           <Aliados>Aliados</Aliados>
           <Carousel autoplay>
             <div>
