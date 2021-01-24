@@ -19,7 +19,9 @@ export const Contactanos = () => {
     <>
       <Row justify="center" align="middle" style={{ height: "750px" }}>
         <Col
-          span={24}
+          xl={20}
+          md={20}
+          xs={18}
           style={{
             display: "flex",
             justifyContent: "center",
@@ -32,7 +34,7 @@ export const Contactanos = () => {
         justify="center"
         align="middle"
         style={{ height: "700px", background: "white" }}>
-        <Col span={16}>
+        <Col xl={18} md={16} xs={20}>
           <Input
             style={Sombra}
             placeholder="Tu nombre"
@@ -53,7 +55,9 @@ export const Contactanos = () => {
             <TextArea placeholder="Tu mensaje" allowClear onChange={onChange} />
           </Row>
           <Row justify="center" align="middle">
-            <BotonEnviarFormulario src={enviar} alt="boton enviar" />
+            <Col md={4} xs={8}>
+              <BotonEnviarFormulario src={enviar} alt="boton enviar" />
+            </Col>
           </Row>
         </Col>
       </Row>

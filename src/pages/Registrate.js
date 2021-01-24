@@ -20,10 +20,10 @@ export const Registrate = () => {
   return (
     <>
       <Row justify="center" align="middle" style={{ height: "700px" }}>
-        <Col span={14} style={alineacion}>
+        <Col xl={14} sm={14} xs={24} style={alineacion}>
           <IMGregistrate src={registroreflekta} alt="flecha" />
         </Col>
-        <Col span={10} style={alineacionArrow}>
+        <Col xl={10} sm={10} style={alineacionArrow}>
           <IMGarrow src={arrow} alt="flecha" />
         </Col>
       </Row>
