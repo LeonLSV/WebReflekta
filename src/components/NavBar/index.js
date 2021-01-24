@@ -43,6 +43,7 @@ export const Navbar = () => {
                     color: "white",
                     fontSize: "40px",
                     fontWeight: "bold",
+                    height: "60px",
                   }}
                   onClick={showDrawer}>
                   <MenuOutlined />
