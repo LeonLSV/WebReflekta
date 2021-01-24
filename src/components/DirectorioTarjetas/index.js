@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerTarjeta } from "./styled";
+// import { ContainerTarjeta } from "./styled";
 
 import { Col, Row } from "antd";
 

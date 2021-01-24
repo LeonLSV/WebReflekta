@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Checkbox } from "antd";
+import { Row, Checkbox } from "antd";
 
 import { ContainerCheckBox, TitleCheckBox } from "./styled";
 
